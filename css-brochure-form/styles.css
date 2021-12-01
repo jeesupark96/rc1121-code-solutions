@@ -1,7 +1,7 @@
 h1 {
   color: orangered;
   display: flex;
-  margin-left: 95px;
+  margin-left: 175px;
   font-family: 'Brandon Grotesque', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -25,7 +25,7 @@ input {
   margin-left: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
-  width: 300px;
+  width: 450px;
   padding: 7px;
   border-radius: 5px;
   border-color: lightgrey;
@@ -34,7 +34,7 @@ input {
 
 select {
   margin-left: 10px;
-  width: 300px;
+  width: 450px;
   padding: 7px;
   background-color: lightgrey;
   margin-top: 5px;
@@ -45,13 +45,14 @@ select {
 
 button {
   background-color: rgba(238, 88, 88, 0.932);
-  margin-left: 245px;
-  margin-top: 10px;
-  border-radius: 10px;
+  margin-left: 359px;
+  margin-top: 5px;
+  border-radius: 50px;
+  padding: 7px 15px;
   border-style: hidden;
   font-family: 'AtlasGrotesk', sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: bolder;
   src: url('AtlasGrotesk-Light-Web.woff2') format('woff2');
   text-transform: uppercase;
   color: white;
