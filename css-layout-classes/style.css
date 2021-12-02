@@ -22,7 +22,7 @@ h2 {
 .column-one-third {
   display: flex;
   flex-wrap: wrap;
-  width: 40%;
+  flex-basis: calc(100% / 3);
 }
 
 .column-one-fourth {
