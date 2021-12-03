@@ -61,7 +61,7 @@ img {
   color: black;
 }
 
-.column-sixth {
+.column-third {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -75,7 +75,7 @@ img {
   width: 100%;
 }
 
-.column-two-sixth {
+.column-two-thirds {
   display: flex;
   flex-wrap: wrap;
   padding-top: 20px;
