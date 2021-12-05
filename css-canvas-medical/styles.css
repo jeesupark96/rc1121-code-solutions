@@ -1,0 +1,297 @@
+html {
+  margin-right: 70px;
+  margin-left: 70px;
+  font-family: "Avenir", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  font-size: 9px;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  width: 600px;
+}
+
+a {
+  padding: 10px;
+  font-size: 15px;
+  color: #a1a1a1;
+}
+
+img {
+  position: relative;
+  width: 54%;
+  left: 20px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.body-head {
+  color: white;
+  display: flex;
+  position: absolute;
+  left: 45px;
+  top: 80px;
+  width: 480px;
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+hr {
+  color: #a1a1a1;
+}
+
+.bold {
+  display: flex;
+  justify-content: center;
+  border-style: hidden;
+  background-color: #294464;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding-top: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+.top-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: absolute;
+}
+
+#main-pic {
+  margin-top: 20px;
+  display: flex;
+  position: absolute;
+  width: 850px;
+  left: 30px;
+}
+
+p {
+  position: absolute;
+  top: 190px;
+  left: 45px;
+  color: white;
+  width: 470px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.overlay {
+  display: flex;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.432));
+  position: absolute;
+  width: 850px;
+  height: 500px;
+  left: 30px;
+}
+
+.body {
+  position: relative;
+  height: 410px;
+  display: flex;
+}
+
+.button {
+  position: absolute;
+  background-color: #294464;
+  color: whitesmoke;
+  bottom: 10px;
+  left: 45px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 17px;
+}
+
+.for-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.middle-row {
+  margin-top: 120px;
+  display: flex;
+  position: absolute;
+  height: 450px;
+  width: 950px;
+  background-color: #fafafa;
+  border-style: hidden;
+}
+
+.Location {
+  display: flex;
+  position: absolute;
+  left: 245px;
+}
+
+.clinicians {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 60px;
+  left: 90px;
+  font-size: 23px;
+  font-family: Tiempos Headline, serif;
+  letter-spacing: 1px;
+  color: #898989;
+}
+
+.locations {
+  color: #aaa;
+  width: 350px;
+  text-align: center;
+  font-size: 13px;
+  left: 50px;
+  top: 110px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  position: absolute;
+  color: #898989;
+  font-size: 17px;
+  padding-top: 200px;
+  padding-left: 90px;
+}
+
+.column-half {
+  display: flex;
+  flex-wrap: flex;
+  width: 100%;
+  position: relative;
+}
+
+.learn-more {
+  display: flex;
+  position: absolute;
+  font-family: Tiempos Headline, sans-serif;
+}
+
+.next-row {
+  display: block;
+  width: 900px;
+  height: 100px;
+  position: relative;
+  top: 590px;
+  color: #7f7f7f;
+}
+
+.learn-meeting {
+  display: flex;
+  color: #7f7f7f;
+  position: absolute;
+  top: 70px;
+  left: 1px;
+  font-size: 15px;
+  text-size-adjust: thin;
+}
+
+.button-three {
+  position: absolute;
+  background-color: #294464;
+  color: whitesmoke;
+  bottom: 10px;
+  right: 40px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 17px;
+}
+
+.contact-us {
+  display: flex;
+  height: 300px;
+  width: 950px;
+  border-style: hidden;
+  position: relative;
+  top: 600px;
+  margin-top: 50px;
+  background: #525351;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  line-height: 25px;
+}
+
+.contact-logo {
+  display: flex;
+  position: relative;
+  top: 65px;
+  left: 89px;
+  width: 100px;
+  height: 30px;
+}
+
+.contact-half {
+  display: flex;
+  flex-wrap: flex;
+  flex-basis: 50%;
+}
+
+.contact-fourth {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 4);
+}
+
+.contact-head {
+  text-transform: uppercase;
+}
+
+.list-fourth {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+}
+
+.left-list {
+  display: flex;
+  position: relative;
+  bottom: 80px;
+}
+
+.right-list {
+  display: flex;
+  position: relative;
+  bottom: 155px;
+  right: 35px;
+}
+
+.last-row {
+  display: flex;
+  border-style: hidden;
+  height: 90px;
+  width: 950px;
+  background-color: #fafafa;
+  position: absolute;
+  bottom: 400px;
+}
+
+.last-line {
+  color: grey;
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: flex;
+  width: 170px;
+}
