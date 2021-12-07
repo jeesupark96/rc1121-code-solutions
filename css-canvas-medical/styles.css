@@ -51,8 +51,10 @@ hr {
 
 .body {
   width: 100%;
-  height: 500px;
+  height: 550px;
   display: flex;
+  margin-top: 60px;
+  padding-right: 30px;
 }
 
 a {
@@ -81,7 +83,7 @@ img {
   display: flex;
   position: absolute;
   top: 24px;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.432));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.199));
   width: 100%;
   height: 95%;
 }
@@ -94,6 +96,7 @@ img {
   top: 30px;
   left: 60px;
   font-family: "Tiempos Headline", sans-serif;
+  padding-top: 50px;
 }
 
 p {
@@ -104,6 +107,7 @@ p {
   width: 470px;
   font-size: 15px;
   line-height: 25px;
+  margin-top: 50px;
 }
 
 .button {
@@ -125,7 +129,7 @@ p {
   background-color: #fafafa;
   width: 100%;
   height: 400px;
-  margin-top: 10px;
+  margin-top: 5px;
   border-style: hidden;
 }
 
@@ -156,10 +160,10 @@ p {
   text-align: center;
   color: #aaa;
   font-size: 13px;
-  width: 40%;
+  width: 37%;
   position: absolute;
-  top: 120px;
-  left: 400px;
+  top: 70px;
+  left: 420px;
 }
 
 ul {
@@ -172,7 +176,7 @@ ul {
   color: #898989;
   font-size: 17px;
   padding-top: 200px;
-  padding-left: 90px;
+  padding-left: 120px;
 }
 
 .column-half {
@@ -195,7 +199,7 @@ ul {
   font-family: Tiempos Headline, sans-serif;
   width: 66%;
   position: relative;
-  top: 0;
+  top: 25px;
 }
 
 .get-ready {
@@ -211,7 +215,7 @@ ul {
   display: flex;
   position: relative;
   width: 66%;
-  top: 60px;
+  top: 40px;
   left: 1px;
 }
 
@@ -255,6 +259,7 @@ ul {
   line-height: 30px;
   width: 40%;
   padding-top: 100px;
+  padding-left: 90px;
 }
 
 .white-logo {
@@ -288,6 +293,7 @@ ul {
   display: flex;
   color: white;
   flex-direction: column;
+  padding-left: 0;
 }
 
 .left-list {
@@ -306,18 +312,20 @@ ul {
 .last-row {
   display: flex;
   border-style: hidden;
-  height: 90px;
+  height: 100px;
   width: 90%;
   background-color: #fafafa;
   position: absolute;
+  margin-top: 40px;
 }
 
 .last-line {
   color: grey;
-  position: relative;
-  top: 20px;
   font-size: 20px;
+  width: 20%;
+  height: 90px;
+  position: relative;
   display: flex;
-  flex-wrap: flex;
-  width: 170px;
+  margin-top: 0;
+  top: 40px;
 }
