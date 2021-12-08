@@ -51,8 +51,6 @@ function isOldEnoughToDrive(person) {
 function isOldEnoughToDrinkAndDrive(person) {
   if ((person.age < 18) && (person.age < 21)) {
     return false;
-  } else {
-    return true;
   }
 }
 
