@@ -1,0 +1,110 @@
+html {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(134, 134, 134);
+  line-height: 30px;
+  width: 80%;
+}
+
+h2 {
+  font-size: 10px;
+  width: 30%;
+  margin-bottom: 0;
+  max-height: 30vh;
+}
+
+img {
+  display: flex;
+  justify-content: end;
+  width: 90%;
+}
+
+.caption {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  width: auto;
+}
+
+.head {
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(134, 134, 134);
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.bodys {
+  display: flex;
+  padding-top: 50px;
+}
+
+.title {
+  color: black;
+}
+
+.column-third {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 33%;
+}
+
+.column-full {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.column-two-thirds {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  width: 66%;
+  max-height: 70vh;
+}
+
+.column-half {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+}
+
+.content {
+  display: flex;
+  font-size: 10px;
+  margin: 0;
+  max-height: 25vh;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  border: rgb(255, 51, 0);
+  border-style: solid;
+  width: 25%;
+  font-size: 35px;
+  color: rgb(255, 51, 0);
+  padding-left: 10px;
+  margin-top: 90px;
+  text-transform: uppercase;
+}

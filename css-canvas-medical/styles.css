@@ -1,0 +1,331 @@
+html {
+  margin-right: 70px;
+  margin-left: 70px;
+  font-family: "Avenir", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  max-height: 5000px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  font-size: 9px;
+  width: 100%;
+  height: 70px;
+}
+
+.blue-logo {
+  width: 50%;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  align-items: center;
+}
+
+.bold {
+  display: flex;
+  justify-content: center;
+  border-style: hidden;
+  background-color: #294464;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding-top: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+hr {
+  display: flex;
+  color: #a1a1a1;
+  width: 90%;
+}
+
+.body {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  margin-top: 60px;
+  padding-right: 30px;
+}
+
+a {
+  padding: 10px;
+  font-size: 15px;
+  color: #a1a1a1;
+}
+
+img {
+  display: flex;
+  position: relative;
+  width: 100%;
+  left: 20px;
+}
+
+.for-overlay {
+  position: relative;
+  width: 100%;
+  height: 95%;
+  left: 20px;
+  background-image: url(images/hero.jpg);
+  background-size: cover;
+}
+
+.overlay {
+  display: flex;
+  position: absolute;
+  top: 24px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.199));
+  width: 100%;
+  height: 95%;
+}
+
+.body-head {
+  color: white;
+  display: flex;
+  width: 50%;
+  position: relative;
+  top: 30px;
+  left: 60px;
+  font-family: "Tiempos Headline", sans-serif;
+  padding-top: 50px;
+}
+
+p {
+  position: relative;
+  top: 30px;
+  left: 60px;
+  color: white;
+  width: 470px;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 50px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  background-color: #294464;
+  color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 17px;
+  position: relative;
+  bottom: 130px;
+  left: 80px;
+}
+
+.middle-row {
+  display: flex;
+  background-color: #fafafa;
+  width: 100%;
+  height: 400px;
+  margin-top: 5px;
+  border-style: hidden;
+}
+
+.Location {
+  display: flex;
+  flex-direction: row;
+  width: 87%;
+  justify-content: center;
+  position: absolute;
+}
+
+.clinicians {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  font-size: 23px;
+  font-family: Tiempos Headline, serif;
+  letter-spacing: 1px;
+  color: #898989;
+  width: 100%;
+}
+
+.locations {
+  display: flex;
+  text-align: center;
+  color: #aaa;
+  font-size: 13px;
+  width: 37%;
+  position: absolute;
+  top: 70px;
+  left: 420px;
+}
+
+ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  position: relative;
+  color: #898989;
+  font-size: 17px;
+  padding-top: 200px;
+  padding-left: 120px;
+}
+
+.column-half {
+  display: flex;
+  flex-wrap: flex;
+  width: 100%;
+  position: relative;
+}
+
+.next-row {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  color: #7f7f7f;
+}
+
+.learn-more {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Tiempos Headline, sans-serif;
+  width: 66%;
+  position: relative;
+  top: 25px;
+}
+
+.get-ready {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 10px;
+}
+
+.learn-meeting {
+  color: #7f7f7f;
+  font-size: 15px;
+  display: flex;
+  position: relative;
+  width: 66%;
+  top: 40px;
+  left: 1px;
+}
+
+.button-three {
+  display: flex;
+  align-self: center;
+  font-size: 17px;
+  width: 33%;
+  position: relative;
+  top: 20px;
+  padding-left: 70px;
+}
+
+.button-two {
+  border-radius: 5px;
+  border-style: hidden;
+  width: 40%;
+  background-color: #294464;
+  color: white;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  left: 200px;
+}
+
+.contact-us {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  border-style: hidden;
+  margin-top: 80px;
+  background: #525351;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  line-height: 30px;
+  width: 40%;
+  padding-top: 100px;
+  padding-left: 90px;
+}
+
+.white-logo {
+  display: flex;
+  align-self: flex-start;
+  width: 20%;
+  height: 10%;
+  position: relative;
+  top: 60px;
+  left: 90px;
+}
+
+.contact-half {
+  display: flex;
+  flex-wrap: flex;
+  flex-basis: 50%;
+  height: 100%;
+}
+
+.contact-fourth {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 4);
+}
+
+.contact-head {
+  text-transform: uppercase;
+}
+
+.list-fourth {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.left-list {
+  display: flex;
+  position: relative;
+  bottom: 77px;
+}
+
+.right-list {
+  display: flex;
+  position: relative;
+  bottom: 155px;
+  right: 34px;
+}
+
+.last-row {
+  display: flex;
+  border-style: hidden;
+  height: 100px;
+  width: 90%;
+  background-color: #fafafa;
+  position: absolute;
+  margin-top: 40px;
+}
+
+.last-line {
+  color: grey;
+  font-size: 20px;
+  width: 20%;
+  height: 90px;
+  position: relative;
+  display: flex;
+  margin-top: 0;
+  top: 40px;
+}
