@@ -1,0 +1,14 @@
+console.log('hello world');
+var newOne = document.querySelector('h1');
+console.log('$heading', newOne);
+console.dir(document.querySelector('h1'));
+var newTwo = document.querySelector('#explanation');
+console.log('$explanation', newTwo);
+console.dir(newTwo);
+var newThree = document.querySelector('.hint');
+console.log('$hint', newThree);
+console.dir(newThree);
+var newFour = document.querySelectorAll('p');
+console.log('$paragraphs', newFour);
+var newLast = document.querySelectorAll('.example-link');
+console.log('$links', newLast);
