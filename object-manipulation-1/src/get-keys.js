@@ -11,3 +11,10 @@ function getKeys(object) {
   }
   return newArray;
 }
+
+// define a function named 'getKeys' with a single parameter 'object'
+// define an array called 'newArray'
+// iterate through the property of the object
+// assign values of property to the variable 'objectKeys'
+// assign the contents of objectKeys to the newArray
+// return newArray
