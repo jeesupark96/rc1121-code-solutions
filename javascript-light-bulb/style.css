@@ -1,0 +1,42 @@
+.normal.light {
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: white;
+}
+
+.normal.dark {
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: black;
+}
+
+.button.light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 120px;
+  background-color: yellow;
+  border-style: none;
+  filter: grayscale(0.5) blur(2px);
+}
+
+.button.dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 120px;
+  background-color: rgb(58 56 56);
+  border-style: none;
+}
