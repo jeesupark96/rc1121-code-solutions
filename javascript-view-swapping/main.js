@@ -13,18 +13,10 @@ function tabList(event) {
     if (event.target.matches('.tab')) {
       var eventT = event.target.getAttribute('data-view');
       for (i = 0; i < viewElements.length; i++) {
-        if (eventT === 'html') {
+        if (eventT === tabElements[i].getAttribute('data-view')) {
           viewElements[i].className = 'view';
-          viewElements[2].className = 'hidden';
-          viewElements[1].className = 'hidden';
-        } else if (event.target.getAttribute('data-view') === 'css') {
-          viewElements[i].className = 'view';
-          viewElements[2].className = 'hidden';
-          viewElements[0].className = 'hidden';
-        } else if (eventT === 'javascript') {
-          viewElements[i].className = 'view';
-          viewElements[1].className = 'hidden';
-          viewElements[0].className = 'hidden';
+        } else {
+          viewElements[i].className = 'hidden';
         }
       }
     }
