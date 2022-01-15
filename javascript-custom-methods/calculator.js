@@ -22,7 +22,7 @@ var calculator = {
     } return sum;
   },
   getAverage: function (numbers) {
-    var average = [];
+    var average = [0];
     var start = 0;
     for (var i = 0; i < numbers.length; i++) {
       start += numbers[i];
