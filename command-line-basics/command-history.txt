@@ -1,0 +1,500 @@
+   86  git switch string-manipulation-1
+   87  git add string-manipulation-1
+   88  git commit -m 'string update'
+   89  git push origin string-manipulation-1
+   90  git status
+   91  git add object-manipulation-1
+   92  git commit "object man 1"
+   93  git commit -m "object man1"
+   94  git push origin object-manipulation-1
+   95  git branch string-manipulation-2
+   96  git switch string-manipulation-2
+   97  git status
+   98  git add object-manipulation-1/
+   99  git commit -m 
+  100  git commit -m 
+  101  git commit -m " obj mab 2"
+  102  git status
+  103  git add string-manipulation-2
+  104  git commit -m "string man 2"
+  105  git push origin string-manipulation-2
+  106  git status
+  107  git branch array-manipulation-2
+  108  git switch array-manipulation-2
+  109  git branch dom-querying
+  110  git switch dom-querying
+  111  git staatus
+  112  git status
+  113  git add dom-querying/
+  114  git commit -m "dom"
+  115  git push origin dom-querying/
+  116  git push origin dom-querying
+  117  git switch array-manipulation-2
+  118  git branch dom-events
+  119  git switch dom-events
+  120  git status
+  121  git add dom-events/
+  122  git commit -m "events"
+  123  git push origin dom-events
+  124  git switch array-manipulation-2
+  125  git switch dom-events
+  126  git add dom-events
+  127  git commit -m "events revised"
+  128  git push origin dom-events
+  129  git switch array-manipulation-2
+  130  git status
+  131  git add array-manipulation-2
+  132  git commit -m "array man 2"
+  133  git push origin array-manipulation-2
+  134  git branch object-manipulation-2
+  135  git switch object-manipulation-2
+  136  git branch dom-manipulation
+  137  git switch dom-manipulatoin
+  138  git switch dom-manipulation
+  139  git status
+  140  git add dom-
+  141  git add dom-manipulation/
+  142  git commit -m "dom man"
+  143  git commit -m "dom man"
+  144  git add dom-manipulation/
+  145  git commit -m "dom man"
+  146  git push origin dom-manipulation
+  147  git switch object-manipulation-2
+  148  git branch css-transforms
+  149  git switch css-transforms
+  150  git add css-transforms
+  151  git commit -m "css transform"
+  152  git push origin css-transforms
+  153  git switch object-manipulation-2
+  154  git branch string-manipulation-3
+  155  git switch string-manipulation-3
+  156  git branch javascript-light-bulb
+  157  git switch javascript-light-bulb
+  158  git switch dom-manipulatoin
+  159  git switch dom-manipulation
+  160  git switch javascript-light-bulb/
+  161  git switch javascript-light-bulb
+  162  git add javascript-light-bulb
+  163  git commit -m "java light"
+  164  git push origin javascript-light-bulb
+  165  git branch javascript-modal
+  166  git switch javascript-modal
+  167  git branch git status
+  168  git status
+  169  git add javascript-modal
+  170  git commit -m "modal"
+  171  git push origin javascript-modal
+  172  git branch css-transitions
+  173  git switch css-transitions
+  174  git add css-transitions
+  175  git commit -m "transitions"
+  176  git push origin css-transitions
+  177  git branch javascript-typing-tutor
+  178  git switch javascript-typing-tutor
+  179  git branch javascript-forms
+  180  git switch javascript-forms
+  181  git add javascript-forms
+  182  git commit -m "forms"
+  183  git push origin javascript-forms
+  184  git add javascript-forms
+  185  git commit -m "forms"
+  186  git push origin javascript-forms
+  187  git switch javascript-typing-tutor/
+  188  git switch javascript-typing-tutor
+  189  git branch dom-creation
+  190  git switch dom-creation
+  191  git status 
+  192  git add dom-creation
+  193  git commit -m "dom-creation"
+  194  git push origin dom-creation/
+  195  git push origin dom-creation
+  196  git branch css-media-queries
+  197  git switch css-media-queries
+  198  cd ~/repos/rc1121-code-solutions/
+  199  git status
+  200  git add css-media-queries
+  201  git commit -m "queries"
+  202  git push origin css-media-queries
+  203  git branch dom-event-delegation
+  204  git switch dom-event-delegation
+  205  git status
+  206  git add dom-event-delegation
+  207  git commit -m "event del"
+  208  git commit -m "event del"
+  209  git add dom-event-delegation
+  210  git commit -m "event del"
+  211  git push origin dom-event-delegation
+  212  git switch javascript-view-swapping
+  213  git branch javascript-view-swapping
+  214  git switch javascript-view-swapping
+  215  git add javascript-view-swapping/
+  216  git commit -m "view swapping"
+  217  git push origin javascript-view-swapping
+  218  git switch javascript-typing-tutor/
+  219  git switch javascript
+  220  git switch javascript-typing-tutor
+  221  git switch javascript-view-swapping
+  222  git add javascript-view-swapping
+  223  git commit -m "view swapping"
+  224  git push origin javascript-view-swapping
+  225  git switch javascript-typing-tutor
+  226  git branch css-responsive-layout
+  227  git switch css-responsive-layout
+  228  git add css-responsive-layout
+  229  git commit -m "css-responsive-layout"
+  230  git push origin css-responsive-layout
+  231  git switch javascript-typing-tutor
+  232  git branch javascript-and-json
+  233  git switch javascript-and-json
+  234  git status
+  235  git add javascript-and-json/
+  236  git commit -m "json"
+  237  git push origin javascript-and-json
+  238  git branch javascript-local-storage
+  239  git switch javascript-local-storage
+  240  git add javascript-local-storage
+  241  git commit -m "local-storage"
+  242  git push origin javascript-local-storage
+  243  git switch javascript-typing-tutor
+  244  cd ~/repos
+  245  git clone git@github.com:<you>/code-journal.git
+  246  cd code-journal
+  247  cd ~/repos
+  248  git clone git@github.com:<you>/code-journal.git
+  249  cd code-journal
+  250  git clone git@github.com:jeesupark96/code-journal.git
+  251  cd code-journal
+  252  npm ci
+  253  cd ~/repos/rc1121-code-solutions/
+  254  git switch javascript-forms
+  255  cd 
+  256  cd code-journal
+  257  cd ~/repos/code-journal/
+  258  cd
+  259  cd ~/repos/r
+  260  cd ~/repos/rc1121-code-solutions/
+  261  git switch css-responsive-layout
+  262  cdc
+  263  cd
+  264  cd ~/repos/code-journal/
+  265  cd
+  266  cd ~/repos/rc1121-code-solutions/
+  267  git switch master
+  268  git switch css-transitions
+  269  git commit css-transitions
+  270  cd ~/repos/rc1121-code-solutions/
+  271  git commit css-transitions/index
+  272  git switch master
+  273  git commit -m "css-transitions"
+  274  git switch master
+  275  git commit -m "css-transition"
+  276  git add css-transitions/index.html
+  277  git commit -m "css transition revision"
+  278  git push origin css-transitions/
+  279  git push origin css-transitions
+  280  git branch javascript-custom-methods
+  281  git switch javascript-custom-nmethods
+  282  git switch javascript-custom-methods
+  283  git add javascript-custom-methods/
+  284  git commit -m "custom methods"
+  285  git push origin javascript-custom-methods
+  286  git switch javascript-this
+  287  git branch javascript-this
+  288  git switch javascript-this
+  289  git add javascript-this
+  290  git commit -m "this"
+  291  git push origin javascript-this
+  292  git branch javascript-prototypes
+  293  git switch javascript-prototypes
+  294  git add javascript-prototypes/
+  295  git commit -m "prototypes"
+  296  git push origin javascript-prototypes
+  297  cd
+  298  ~ /repos/code-journal
+  299  cd ~ /repos/code-journal
+  300  cd ~/repos/code-journal/
+  301  git branch issue-1-create-an-entry
+  302  git switch issue-1-create-an-entry
+  303  git commit -m "entry form 1"
+  304  git add --all
+  305  git commit -m "entry form 1"
+  306  git push origin issue-1-create-an-entry
+  307  git add -all
+  308  git add --all
+  309  git commit -m "create an entry revision"
+  310  git push origin issue-1-create-an-entry
+  311  cd
+  312  cd ~/repos/rc1121-code-solutions/
+  313  git branch javascript-constructors
+  314  git switch javascript-constructors
+  315  git add javascript-constructors/
+  316  git commit -m 'constructors'
+  317  git push origin javascript-constructors
+  318  git branch javascript-bank
+  319  git switch javascript-bank
+  320  git add javascript-bank
+  321  git commit -m 'bank'
+  322  git push origin javascript-bank
+  323  git branch javascript-timers
+  324  git switch javascript-timers
+  325  git add javascript-timers
+  326  git commit -m 'javascript-timers'
+  327  git push origin javascript-timers
+  328  git branch javascript-carousel
+  329  git switch javascript-carousel
+  330  cd
+  331  curl -sS https://lfz-static.s3-us-west-1.amazonaws.com/dev-environment/mac-installer.bash | bash
+  332  dev-env
+  333  dev-env
+  334  exit
+  335  whoami
+  336  dev-en
+  337  dev-env
+  338  exit
+  339  dev en
+  340  dev evn
+  341  dev env
+  342  dev env 
+  343  dev-env
+  344  exit
+  345  cd ~/repos/rc1121-code-solutions/
+  346  git add javascript-carousel
+  347  git commit -m "carousel"
+  348  git push origin javascript-carousel
+  349  cd
+  350  cd ~/repos/code-journal/
+  351  cd
+  352  cd ~/repos/r
+  353  cd ~/repos/rc1121-code-solutions/
+  354  git add javascript-carousel
+  355  git commit -m "carousel"
+  356  git push origin javascript-carousel
+  357  cd
+  358  cd ~/repos/cod
+  359  cd ~/repos/code-journal/
+  360  git branch issue-2-view-an-entry
+  361  git switch issue-2-view-an-entry
+  362  cd
+  363  cd ~/repos/rc1121-code-solutions/
+  364  git branch http-messages
+  365  git switch http-messages
+  366  cd
+  367  http-messages
+  368  cd http-messags
+  369  http
+  370  cd ~/repos/http-messags
+  371  cd ~/repos/http-messages
+  372  ~/repos/rc1121-code-solutions/
+  373  cd ~/repos/rc1121-code-solutions/
+  374  dev env
+  375  dev-env
+  376  cd 
+  377  cd ~/repos/week-planner/
+  378  git add .
+  379  git commit -m "add-entry" --no-verify
+  380  git push origin master
+  381  git pull origin master
+  382  git add . 
+  383  git commit -m "modal" --no-verify
+  384  git push origin master
+  385  git add . 
+  386  git commit -m "modal" --no-verify
+  387  git pull origin master
+  388  git add . 
+  389  git commit -m "table" --no-verify
+  390  git push origin master
+  391  git pull origin master
+  392  git add .
+  393  git commit -m "table" --no-verify
+  394  git push origin master
+  395  git pull origin master
+  396  git add .
+  397  git commit -m "monday" --no-verify
+  398  git push origin master
+  399  cd
+  400  cd ~/repos/rc1121-code-solutions/
+  401  git switch javascript-typing-tutor/
+  402  git switch javascript-typing-tutor
+  403  git commit -all
+  404  git commit --all
+  405  cd
+  406  cd ~/REPOS/rc1121-code-solutions/
+  407  git status
+  408  git commit --all
+  409  cd ~/repos/r
+  410  cd ~/repos/rc1121-code-solutions/
+  411  git status
+  412  git switch javascript-typing-tutor
+  413  git stash javascript-ajax/users.js
+  414  git status
+  415  git stash javascript-ajax/users.js
+  416  git commit javascript-ajax-users.js
+  417  git switch javascript-typing-tutor/
+  418  git switch
+  419  git switch javascript-typing-tutor
+  420  git commit javascript-ajax
+  421  git switch javascript-typing-tutor
+  422  git commit javascript-ajax/users.js
+  423  git commit --all
+  424  git push origin javascript-ajax --no-verify
+  425  git status
+  426  git commit -a
+  427  git status
+  428  git switch javascript-typing-tutor
+  429  cd
+  430  cd ~/repos/code-journal/
+  431  cd
+  432  cd ~/repos/rc1121-code-solutions/
+  433  git branch es6-const-let
+  434  git switch es6-const-let
+  435  git add es6-const-let/
+  436  git commit -m "es6 const let"
+  437  git push origin es6-const-let
+  438  git branch es6-template-literals
+  439  git switch es6-template-literals
+  440  git add es6-template-literals/
+  441  git commit -m "template literals"
+  442  git push origin es6-template-literals
+  443  git branch es6-destructuring
+  444  git switch es6-destructuring
+  445  git add es6-destructuring/
+  446  git commit -m "destructuring"
+  447  git push origin es6-destructuring
+  448  git switch master
+  449  git switch es6-const-let/
+  450  git switch es6-const-let
+  451  git add es6-const-let
+  452  git commit -m "const"
+  453  git push origin es6-const-let
+  454  git switch master
+  455  git add es6-const-let/index.html
+  456  git commit -m "revision"
+  457  git commit -m "revision --allow-empty
+  458  --allow-empty
+  459  cd ~/repos/rc
+  460  cd ~/repos/rc1121-code-solutions/
+  461  git branch es6-arrow-functions
+  462  git switch es6-arrow-functions
+  463  git add es6-arrow-functions
+  464  git commit -m "arrow functions"
+  465  git push origin es6-arrow-functions
+  466  git switch master
+  467  git branch command-line-basics
+  468  git switch command-line-basics
+  469  cd command-line-basics
+  470  pwd
+  471  pwd
+  472  man man 
+  473  man man 
+  474  car
+  475  cat
+  476  cd ~/repos/rc1121-code-solutions/
+  477  man cat
+  478  cat laziness.text
+  479  cat laziness.txt
+  480  cat print lazines.txt
+  481  cat print laziness.txt
+  482  cat print laziness
+  483  cat print laziness.txt
+  484  man cat 
+  485  cat print -laziness.txt
+  486  cat print
+  487  cat
+  488  cd ~/repos/rc1121-code-solutions/
+  489  man cat
+  490  cat laziness.txt
+  491  cat command-line-basics
+  492  cat print command-line-basics
+  493  cat laziness
+  494  cat laziness.txt
+  495  cat laziness.txt
+  496  git cat laziness
+  497  git add -all 
+  498  git add --all
+  499  git status
+  500  cat laziness.txt
+  501  cd ~/repos/rc1121-code-solutions/
+  502  cat laziness.txt
+  503  man cat
+  504  pwd
+  505  cd
+  506  cd command-line-basics
+  507  cd ~/repos/command-line-basics
+  508  cd ~/repos/command-line-basics
+  509  cd ~/repos/command-line-basics
+  510  cd ~/repos/command-line-basics/
+  511  cd ~/repos/rc1121-code-solutions/
+  512  cd command-line-basics
+  513  pwd
+  514  cat laziness.txt
+  515  cat impatience.txt
+  516  cat hubris.txt
+  517  cat laziness.txt impatience.txt hubris.txt
+  518  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  519  cat three-virtues.txt
+  520  man ls
+  521  man ls
+  522  ls command-line-basics
+  523  ls command
+  524  ls command-line-basics/contents
+  525  ls command-line-basics/contents.txt
+  526  ls 
+  527  ls -a
+  528  ls man
+  529  man ls 
+  530  ls -F
+  531  ls lfz-staff/
+  532  ls lfz-staff/ -a
+  533  ls -a lfz-staff/
+  534  ls -F lfz-staff/
+  535  ls -aF lfz-staff > lfz-staff/contents.txt
+  536  cat lfz-staff/contents.txt
+  537  man pwd
+  538  pwd
+  539  pwd > i-was-here.txt
+  540  cat i-was-here.txt
+  541  ls
+  542  man echo
+  543  echo 'Hello, World!'
+  544  echo 'Hello, World!' > hello.txt
+  545  ls
+  546  cat hello.txt
+  547  man touch
+  548  touch tag-youre-it.txt
+  549  touch snoot/boop.txt
+  550  ls snoot/
+  551  man mkdir
+  552  man mkdir
+  553  mkdir parent
+  554  ls
+  555  ls -aF
+  556  mkdir -p parent/child/grandchild
+  557  touch parent/child/grandchild/.gitkeep
+  558  ls -a
+  559  ls parent
+  560  ls child
+  561  ls grandchild
+  562  man mv
+  563  mv pokiemans 
+  564  mv pokiemans pokemon
+  565  ls
+  566  man rm 
+  567  man rm
+  568  rm lol.txt
+  569  ls
+  570  rm -r kill-me/
+  571  ls
+  572  man cp
+  573  man cp
+  574  cp and-then.txt
+  575  cp and-then.txt no-and-then.txt
+  576  ls
+  577  cat and-then.txt
+  578  cat no-and.then.txt
+  579  cat no-and-then.txt
+  580  man history
+  581  man hicp
+  582  man cp
+  583  man history
+  584  history
+  585  history > command-history.txt
