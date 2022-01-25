@@ -22,14 +22,13 @@ const grades = {
   }
 };
 
-app.get('/api/grades', (req, res, next) => {
+app.get('/api/grades', (req, res) => {
   const newarray = [];
   for (const prop in grades) {
     const result = grades[prop];
     newarray.push(result);
   }
   res.json(newarray);
-  next();
 });
 
 app.delete('/api/grades/:id', (req, res) => {
