@@ -24,11 +24,13 @@ const grades = {
 const app = express();
 
 app.get('/api/grades', (req, res) => {
-  for (const property in grades) {
-    // eslint-disable-next-line no-console
-    console.log(`${property} in ${grades}`);
+  const newarray = [];
+  for (const prop in grades) {
+
+    const result = (grades[prop]);
+    newarray.push(result);
   }
-  res.json(grades);
+  res.json(newarray);
 });
 
 app.listen(3000, () => {
