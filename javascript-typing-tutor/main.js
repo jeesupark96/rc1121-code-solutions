@@ -1,13 +1,12 @@
 
-var letters = document.querySelectorAll('.letter');
-var newSpan = document.querySelectorAll('span');
-function changeKeys(event) {
-  var i = 0;
-  if (event.key === newSpan[i].textContent) {
-    newSpan[i].className = 'lettergreen';
+const letters = document.querySelectorAll('span');
+var i = 0;
+document.addEventListener('keydown', event => {
+
+  if (event.key === letters[i].textContent) {
+    letters[i].className = 'lettergreen';
     i++;
-  } else newSpan[i].className = 'letterred';
+    letters[i].className = 'letter borderbottom';
+  } else letters[i].className = 'letterred borderbottomred';
 
-}
-
-document.addEventListener('keydown', changeKeys);
+});
