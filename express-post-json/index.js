@@ -22,7 +22,7 @@ app.post('/api/grades/', (req, res) => {
     score: req.body.score
   };
   nextId++;
-  res.send(grades);
+  res.status(201).json(grades);
 });
 
 app.listen(3000, (req, res) => {
