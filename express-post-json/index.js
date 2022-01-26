@@ -6,9 +6,10 @@ const grades = {};
 
 app.get('/api/grades', (req, res) => {
   const gradeArray = [];
+  for (const prop in grades) {
+    gradeArray.push(grades[prop]);
 
-  gradeArray.push(grades);
-
+  }
   res.json(gradeArray);
 });
 
