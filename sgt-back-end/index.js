@@ -25,14 +25,8 @@ app.get('/api/grades', (req, res) => {
   db.query(sql)
     .then(result => {
       const grade = result;
-      if (!grade) {
-        res.status(404).json({
-          Error: 'Cannot find grade'
-        });
-      } else {
-        res.json(grade.rows);
-      }
 
+      res.json(grade);
     })
     .catch(err => {
       console.error(err);
@@ -57,18 +51,20 @@ app.post('/api/grades', (req, res) => {
 
   const sql = `
     insert into "grades" ("name", "course", "score")
-    values ('${insName}', '${insCourse}', '${insScore}')
-    returning*;
+    values ($1, $2, $3)
+    returning *;
       `;
-  db.query(sql)
+
+  const params = [insName, insCourse, insScore];
+  db.query(sql, params)
     .then(result => {
-      const grade = result;
+      const grade = result.rows[0];
       if (!grade) {
         res.status(404).json({
           Error: 'Input Value is incorrect'
         });
       } else {
-        res.status(201).json(grade.rows[(grade.rows.length - 1)]);
+        res.status(201).json(grade);
       }
 
     })
@@ -95,19 +91,20 @@ app.put('/api/grades/:gradeId', (req, res) => {
   }
   const sql = `
     update "grades"
-    set "name" = '${insName}',
-        "course" = '${insCourse}',
-        "score" = '${insScore}'
-    where "gradeId" = ${gradeId}
+    set "name" = '$1',
+        "course" = '$2',
+        "score" = '$3'
+    where "gradeId" = $4
     returning*;
       `;
-  db.query(sql)
+  const params = [insName, insCourse, insScore, gradeId];
+  db.query(sql, params)
     .then(result => {
-      const grade = result;
+      const grade = result.rows[0];
       if (!grade) {
         res.status(404).json();
       } else {
-        res.status(201).json(grade.rows);
+        res.status(201).json(grade);
       }
 
     })
@@ -124,25 +121,21 @@ app.delete('/api/grades/:gradeId', (req, res) => {
 
   const gradeId = req.params.gradeId;
 
-  if (req.params.gradeId !== gradeId) {
-    res.status(404).json({ error: 'The target grade does not exist in the database' });
-
-  }
-
   const sql = `
     delete from "grades"
-    where "gradeId" = ${gradeId}
+    where "gradeId" = $1
     returning*;
       `;
-  db.query(sql)
+  const params = [gradeId];
+  db.query(sql, params)
     .then(result => {
-      const grade = result;
-      if (gradeId in grade.rows) {
+      const grade = result.rows[0];
+      if (!grade) {
         res.status(404).json({
           Error: `Cannot find grade with "gradeId" ${req.params}`
         });
       } else {
-        res.status(204).json(result);
+        res.sendStatus(204);
       }
 
     })
