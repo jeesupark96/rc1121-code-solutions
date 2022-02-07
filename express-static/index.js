@@ -3,12 +3,10 @@ const path = require('path');
 
 const app = express();
 
-app.get('/index.js', (req, res) => {
-  const dirname = path.join(__dirname, 'public');
-  res.json(dirname);
-});
+const pathName = path.join(__dirname, 'public');
+const staticPath = express.static(pathName);
 
-app.use(express.static('public'));
+app.use(staticPath);
 
 app.listen(3000, () => {
   console.log('Listening on Port 3000');
