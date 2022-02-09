@@ -47,12 +47,12 @@ export default class App extends React.Component {
     fetch(`/api/todos/${todoId}`, req)
       .then(res => res.json())
       .then(data => {
-        const result = this.state.todos.map(original => {
+        const results = this.state.todos.map(original => {
           return original.todoId === data.todoId
             ? data
             : original;
         });
-        this.setState({ todos: result });
+        this.setState({ todos: results });
       });
 
   }
