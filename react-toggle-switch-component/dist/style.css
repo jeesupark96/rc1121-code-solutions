@@ -1,0 +1,58 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+.root {
+  display: flex;
+  justify-content: center;
+}
+
+.buttleft {
+  border-style: solid;
+  border-color: black;
+  border-radius: 45px;
+  border-width: 2px;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.buttright {
+  border-style: solid;
+  border-color: black;
+  border-radius: 45px;
+  border-width: 2px;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.backgroundon {
+  position: relative;
+  width: 90px;
+  background-color: green;
+  border-radius: 25px;
+  height: 45px;
+  border-style: solid;
+  border-color: black;
+}
+
+.backgroundoff {
+  position: absolute;
+  width: 90px;
+  background-color: lightgrey;
+  border-radius: 25px;
+  height: 45px;
+  border-style: solid;
+  border-color: black;
+}
+
+#sub {
+  font-size: 40px;
+  display: flex;
+  position: absolute;
+  left: 100px;
+}
