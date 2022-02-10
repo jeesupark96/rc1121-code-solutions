@@ -1,0 +1,71 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.normal {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-style: hidden;
+  color: black;
+  padding: 20px 50px;
+  font-size: 30px;
+}
+
+.purple {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-style: hidden;
+  background-color: purple;
+  padding: 20px 50px;
+  font-size: 30px;
+}
+
+.lightpurple {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-style: hidden;
+  background-color: rgb(104 50 175);
+  padding: 20px 50px;
+  font-size: 30px;
+}
+
+.pink {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-style: hidden;
+  background-color: hotpink;
+  padding: 20px 50px;
+  font-size: 30px;
+}
+
+.orange {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-style: hidden;
+  background-color: orange;
+  padding: 20px 50px;
+  font-size: 30px;
+}
+
+.yellow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-style: hidden;
+  background-color: yellow;
+  padding: 20px 50px;
+  font-size: 30px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
