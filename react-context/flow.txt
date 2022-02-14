@@ -1,0 +1,36 @@
+User can sign up.
+In order to sign up for an account, we would be referencing the
+Auth-form.jsx, Auth.jsx, navbar.jsx and the database and the server.
+So we first would have to click on the hyperlink or the options in the navbar that would take us to the
+new sign up form which changes in the auth form based on the hash of the website.
+Then we would fill out the form and the data would then be saved in the database through the data.sql
+if the data that we input is incorrect, the data is passed into the error middleware of the server
+and returns the error console 'username and password are required fields'
+After our correct information is passed, our password is given a unique jwt token for anonymity and will help us login
+for the future.
+Now we have a signed up a new account.
+
+
+User can sign in.
+In order to sign in once we have an account, we then go back to the main screen and
+sign in either through clicking navbar or the form link which changes the hash through the auth-form.jsx
+which in then, redirects us to the correct form.
+When we input the data into the form, and there are no errors, the sign in information gets passed
+and we get redirected to a home page with the gif.
+the User data gets input into the localStorage through the handleSignIn function and remains there until the signout.
+
+
+
+User can stay signed in (even if they refresh the page).
+So once the user data is passed onto the database and server, the user
+can stay signed in through the app.jsx of the client. The client checks
+if the users jwt is still within the localstorage, and if it is, the website does not
+remove the jwt until it is removed through the handleSignOut function.
+
+
+
+
+User can sign out.
+The user can sign out using the navbar button and when the user signs out
+the handleSignOut function is called and the App class component is rendered with the
+removing of the localStorage jwt and the user is redirected to the home page
