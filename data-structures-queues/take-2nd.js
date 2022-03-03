@@ -1,17 +1,17 @@
 /* exported take2nd */
 
 function take2nd(queue) {
-  const newQ = queue;
-  if (newQ.peek() === undefined) {
+
+  if (queue.peek() === undefined) {
     return undefined;
   } else {
-    const newitem = newQ.dequeue();
-    const returnitem = newQ.dequeue();
+    const newitem = queue.dequeue();
+    const returnitem = queue.dequeue();
     if (returnitem === undefined) {
-      newQ.enqueue(newitem);
+      queue.enqueue(newitem);
       return newitem;
     } else {
-      newQ.enqueue(newitem);
+      queue.enqueue(newitem);
     }
     return returnitem;
   }
