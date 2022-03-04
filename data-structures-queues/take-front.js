@@ -2,7 +2,7 @@
 
 function takeFront(queue) {
   if (queue.peek() === undefined) {
-    return queue;
+    return undefined;
   } else {
     const item = queue.dequeue();
     return item;

@@ -2,7 +2,7 @@
 
 function postpone(queue) {
   if (queue.peek() === undefined) {
-    return queue;
+    return undefined;
   } else {
     queue.enqueue(queue.dequeue());
   }
