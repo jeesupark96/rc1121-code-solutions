@@ -2,7 +2,7 @@
 
 function removeNext(list) {
   if (list.next === null) {
-    return list;
+    return undefined;
   }
   list.next = list.next.next;
 

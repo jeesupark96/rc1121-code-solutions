@@ -7,5 +7,5 @@ function insertNext(list, value) {
   if (newlist !== null) {
     list.next.next = newlist;
   }
-  return list;
+  return undefined;
 }

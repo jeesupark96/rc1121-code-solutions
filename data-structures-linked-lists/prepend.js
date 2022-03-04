@@ -3,8 +3,8 @@
 
 function prepend(list, value) {
   const newlist = new LinkedList(value);
-  if (newlist.next === null) {
-    newlist.next = list;
-  }
+
+  newlist.next = list;
+
   return (newlist);
 }
